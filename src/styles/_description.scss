@@ -1,0 +1,71 @@
+.main {
+  display: flex;
+  justify-content: center;
+
+  &__conteiner {
+    max-width: 493px;
+    display: block;
+    margin-right: 40px;
+    box-sizing: border-box;
+    margin-top: 35px;
+  }
+
+  &__description {
+    box-sizing: border-box;
+
+    &_heading {
+      font-family: "Avenir-heavy", sans-serif;
+      font-size: 36px;
+      line-height: 42px;
+      margin-bottom: 20px;
+    }
+
+    &_smallText {
+      color: #687c94;
+      margin-bottom: 25px;
+    }
+
+    &_rooms {
+      box-sizing: border-box;
+      height: 25px;
+      width: 260px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 35px;
+    }
+
+    &_1,
+    &_2,
+    &_3 {
+      margin-right: 30px;
+    }
+
+    &_text {
+      margin-bottom: 30px;
+    }
+
+    &_contact {
+      font-family: "Avenir-heavy", sans-serif;
+    }
+  }
+}
+
+@media screen and ( max-width: 1000px ) {
+
+  .main {
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and ( max-width: 400px ) {
+  .main {
+
+    &__conteiner {
+      margin-right: 0;
+      width: 100%;
+    }
+  }
+}

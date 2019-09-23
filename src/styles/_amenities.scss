@@ -1,0 +1,39 @@
+.main {
+
+  &__amenities {
+    margin-top: 50px;
+
+    &_heading {
+      font-family: "Avenir-Heavy", sans-serif;
+      font-size: 20px;
+      margin-bottom: 20px;
+      line-height: 23px;
+    }
+
+    &_smallConteiner {
+      display: grid;
+      grid-template-columns: 70px 80px;
+      grid-template-rows: 20px;
+      grid-row-gap: 20px;
+      grid-column-gap: 130px;
+      margin-bottom: 25px;
+    }
+
+    &_link {
+      font-weight: bold;
+    }
+  }
+}
+
+@media screen and ( max-width: 400px ) {
+  .main {
+
+    &__amenities {
+
+      &_smallConteiner {
+        grid-column-gap: 0;
+        justify-content: space-between;
+      }
+    }
+  }
+}
