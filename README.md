@@ -1,1 +1,1 @@
-[LINK](https://andrii-pavlenko.github.io/AirBnB/src/index.html/)
+[LINK](https://andrii-pavlenko.github.io/AirBnB/src/index.html)
